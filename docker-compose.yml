@@ -22,8 +22,8 @@ services:
       - .:/app
     working_dir: /app
     networks:
-        - bot-service
+      - my_shared_network
         
 networks:
-  bot-service:
-    name: bot-service
+  my_shared_network:
+    external: true

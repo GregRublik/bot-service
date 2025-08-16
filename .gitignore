@@ -8,3 +8,9 @@ wheels/
 
 # Virtual environments
 .venv
+.env
+.idea
+*.log
+
+logs/app.log
+logs/debug.log

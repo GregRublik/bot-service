@@ -19,7 +19,7 @@ async def handle_telegram_messages(
     past_time = datetime.fromisoformat(message.date)
     time_difference = current_time - past_time
 
-    print(f"Время: {time_difference}")
-    print(message)
+    # print(f"Время: {time_difference}")
+    # print(message)
 
-    # await bot.send_message(message.chat_id, message.text)
+    await bot.send_message(message.chat_id, message.text)
