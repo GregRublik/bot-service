@@ -1,0 +1,13 @@
+[project]
+name = "bot-service"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiogram>=3.21.0",
+    "aiohttp>=3.12.15",
+    "faststream[rabbit]>=0.5.48",
+    "loguru>=0.7.3",
+    "pydantic-settings>=2.10.1",
+]
